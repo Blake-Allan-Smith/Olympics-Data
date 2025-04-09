@@ -19,7 +19,7 @@ An end-to-end data analysis project exploring Olympic athlete data. This project
 - Highlight a few main takeaways from your analysis (medal trends, country performance, athlete demographics, etc.)
 
 ## 📌 Dashboard Preview
-![Olympic Dashboard Preview]"C:\Users\smith\OneDrive\Desktop\Olympics Data Dashboard.png")
+![Olympic Dashboard Preview](Olympics Data Dashboard.png)
 
 
 ## 🚀 How to Run
