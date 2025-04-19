@@ -17,7 +17,7 @@ An end-to-end data analysis project exploring Olympic athlete data. This project
 - Highlight a few main takeaways from your analysis (medal trends, country performance, athlete demographics, etc.)
 
 ## 📌 Dashboard Preview
-![Olympic Dashboard Preview](https://github.com/Blake-Allan-Smith/Olympics-Data/blob/main/Olympics%20Data%20Dashboard.png?raw=true)
+![Olympic Dashboard Preview](https://github.com/Blake-Allan-Smith/Olympics-Data/releases/download/screenshot/Olympics.Data.Dashboard.png)
 
 ## 📁 Data Source
 - [Kaggle: Olympic History Dataset](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results)
