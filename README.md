@@ -6,7 +6,6 @@ An end-to-end data analysis project exploring Olympic athlete data. This project
 ## 🛠️ Tools Used
 - SQL
 - Tableau
-- Jupyter Notebooks
 
 ## 📂 Project Structure
 - `data/`: Contains raw and processed data files
