@@ -19,11 +19,5 @@ An end-to-end data analysis project exploring Olympic athlete data. This project
 ## 📌 Dashboard Preview
 ![Olympic Dashboard Preview](https://github.com/Blake-Allan-Smith/Olympics-Data/blob/main/Olympics%20Data%20Dashboard.png?raw=true)
 
-
-## 🚀 How to Run
-1. Clone the repo
-2. Open the Jupyter notebook to review the analysis
-3. Open the Tableau file to interact with the dashboard (requires Tableau)
-
 ## 📁 Data Source
 - [Kaggle: Olympic History Dataset](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results)
