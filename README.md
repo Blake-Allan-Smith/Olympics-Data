@@ -26,4 +26,4 @@ An end-to-end data analysis project exploring Olympic athlete data. This project
 3. Open the Tableau file to interact with the dashboard (requires Tableau)
 
 ## 📁 Data Source
-- [Kaggle: Olympic History Dataset]([link to the dataset](https://public.tableau.com/app/profile/blake.smith1551/viz/OlympicsData_17436646730210/Dashboard1_1))
+- [Kaggle: Olympic History Dataset](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results)
