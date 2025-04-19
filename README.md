@@ -9,7 +9,6 @@ An end-to-end data analysis project exploring Olympic athlete data. This project
 
 ## 📂 Project Structure
 - `data/`: Contains raw and processed data files
-- `notebooks/`: Main analysis in Python
 - `sql/`: SQL scripts for data extraction
 - `tableau/`: Tableau dashboard (.twbx) and screenshots
 - `images/`: Visualizations and charts
