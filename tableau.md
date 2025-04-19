@@ -8,4 +8,4 @@
 ### Most Successful Olympic Athletes:
 ![Most Successful Olympic Athletes](https://github.com/Blake-Allan-Smith/Olympics-Data/releases/download/tableau/Most.Successful.Olympic.Athletes.png)
 ### Most Successful Sport Per Country:
-![
+![Most Successful Sport Per Country](https://github.com/Blake-Allan-Smith/Olympics-Data/releases/download/tableau/Most.Successful.Sport.Per.Country.png)
