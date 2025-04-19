@@ -11,7 +11,6 @@ An end-to-end data analysis project exploring Olympic athlete data. This project
 - `data/`: Contains raw and processed data files
 - `sql/`: SQL scripts for data extraction
 - `tableau/`: Tableau dashboard (.twbx) and screenshots
-- `images/`: Visualizations and charts
 
 ## 🔍 Key Insights
 
