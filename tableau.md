@@ -4,6 +4,7 @@
 ### Total Medal Count Per Country:
 ![Total Medal Count Per Country](https://github.com/Blake-Allan-Smith/Olympics-Data/releases/download/tableau/Map.of.Medals.png)
 ### Gender Participation Per Year:
-[Gender Participation Per Year](https://github.com/Blake-Allan-Smith/Olympics-Data/releases/download/tableau/Gender.Participation.png)
-- [
-- [
+![Gender Participation Per Year](https://github.com/Blake-Allan-Smith/Olympics-Data/releases/download/tableau/Gender.Participation.png)
+### Most Successful Olympic Athletes:
+![
+![
