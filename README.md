@@ -1,7 +1,7 @@
 # Olympic Data Analysis Dashboard
 
 ## 📊 Project Overview
-An end-to-end data analysis project exploring Olympic athlete data. This project involves data extraction, SQL querying, analysis in Python, and interactive dashboard creation using Tableau.
+An end-to-end data analysis project exploring Olympic athlete data. This project involves data extraction, SQL querying, and interactive dashboard creation using Tableau.
 
 ## 🛠️ Tools Used
 - SQL
