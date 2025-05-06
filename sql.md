@@ -22,4 +22,29 @@ SELECT COUNTIF(Sex = 'M') AS Male, COUNTIF(Sex = 'F') AS Female, Year, Season FR
 GROUP BY Year, Season
 ORDER BY Year;
 
+DROP TABLE IF EXISTS `massive-catfish-453323-c9.olympics_dataset.athlete_success`;
 
+CREATE TABLE `massive-catfish-453323-c9.olympics_dataset.athlete_success` AS
+  WITH athlete_success AS (
+    SELECT
+    Name,
+    COUNT(*) AS appearences,
+    COUNTIF(Medal != 'NA') as medals
+    FROM `massive-catfish-453323-c9.olympics_dataset.olympics_data`
+    GROUP BY Name
+  ),
+  athlete_rank AS (
+    SELECT
+    *,
+    RANK() OVER (PARTITION BY Name ORDER BY medals) AS top_athletes
+    FROM athlete_success
+  )
+  SELECT
+  Name,
+  top_athletes,
+  appearences,
+  medals
+  FROM athlete_rank
+  ORDER BY medals DESC;
+
+  
