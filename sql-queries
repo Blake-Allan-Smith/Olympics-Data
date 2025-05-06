@@ -1,11 +1,3 @@
-## SQL Scripts for Olympics Data
-
-👉 [Medal Count Per Country](https://github.com/Blake-Allan-Smith/Olympics-Data/releases/download/scripts/medals.sql)  
-👉 [Gender Participation Per Olympic Games](https://github.com/Blake-Allan-Smith/Olympics-Data/releases/download/scripts/gender_participation.sql)  
-👉 [Most Successful Olympic Athletes](https://github.com/Blake-Allan-Smith/Olympics-Data/releases/download/scripts/athlete_success.sql)  
-👉 [Most Successful Sport Per Country](https://github.com/Blake-Allan-Smith/Olympics-Data/releases/download/scripts/most_successful_sport_per_country.sql)
-
-
 DROP TABLE IF EXISTS `massive-catfish-453323-c9.olympics_dataset.medals_per_year`;
 
 CREATE TABLE `massive-catfish-453323-c9.olympics_dataset.medals_per_year` AS 
@@ -47,4 +39,28 @@ CREATE TABLE `massive-catfish-453323-c9.olympics_dataset.athlete_success` AS
   FROM athlete_rank
   ORDER BY medals DESC;
 
-  
+  DROP TABLE IF EXISTS `massive-catfish-453323-c9.olympics_dataset.most_successful_sport`;
+
+CREATE TABLE `massive-catfish-453323-c9.olympics_dataset.most_successful_sport` AS
+WITH medal_count AS (
+  SELECT 
+  COUNT(Sport) AS medals, 
+  Sport, 
+  NOC 
+  FROM `massive-catfish-453323-c9.olympics_dataset.olympics_data`
+  WHERE Medal != 'NA'
+  GROUP BY NOC, Sport
+  ),
+sport_rank AS (
+  SELECT 
+  *,
+  RANK() OVER (PARTITION BY NOC ORDER BY medals DESC) AS rank
+  FROM medal_count
+  )
+SELECT
+NOC,
+Sport,
+sport_rank.medals
+FROM sport_rank
+WHERE rank = 1
+ORDER BY sport_rank.medals DESC;
